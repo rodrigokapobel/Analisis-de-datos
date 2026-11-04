@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.24)  4 NOV 2026 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.24)  4 NOV 2026 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,15 +792,15 @@ Overfull \hbox (1.39163pt too wide) in paragraph at lines 158--159
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 162.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 206.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
 ine 206.
 (/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 206.
+(Font)              scaled to size 8.0pt on input line 206.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 206.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
 06.
 
@@ -826,7 +826,7 @@ ntorno.pdf>]
 File: images/mapa_espacial_gravedad_1.pdf Graphic file (type pdf)
 <use images/mapa_espacial_gravedad_1.pdf>
 Package pdftex.def Info: images/mapa_espacial_gravedad_1.pdf  used on input lin
-e 277.
+e 279.
 (pdftex.def)             Requested size: 529.22798pt x 216.97131pt.
 
 [2 <./images/mapa_espacial_gravedad_1.pdf>] (./TP_Report_2026.aux)
@@ -837,10 +837,10 @@ L3 programming layer <2024-01-22>
  ) 
 Here is how much of TeX's memory you used:
  30740 strings out of 476182
- 789279 string characters out of 5795595
+ 789282 string characters out of 5795595
  1976975 words of memory out of 5000000
  52244 multiletter control sequences out of 15000+600000
- 920228 words of font info for 83 fonts, out of 8000000 for 9000
+ 920843 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  84i,13n,87p,735b,2081s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fr
@@ -848,8 +848,8 @@ ee-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on TP_Report_2026.pdf (2 pages, 236238 bytes).
+xmf/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on TP_Report_2026.pdf (2 pages, 237310 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream

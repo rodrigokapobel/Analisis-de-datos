@@ -176,7 +176,7 @@
 		\noindent
 		\colorbox{white}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{
 				\vspace{0.08cm}
-				\footnotesize
+				\scriptsize
 				\setlength{\leftmargini}{1.1em}
 				
 				\textcolor{primary}{\textbf{Dificultades}}\par
@@ -191,21 +191,21 @@
 					\item \textbf{ML:} El dataset no tiene un target explícito; la tarea y la variable objetivo deben definirse.
 				\end{itemize}
 				
-				\vspace{-0.1cm}
+				\vspace{0.3cm}
 				\textcolor{primary}{\textbf{Features destacadas}}\par
 				\begin{itemize}
 					\setlength{\itemsep}{0.04cm}
 					\setlength{\topsep}{0.04cm}
 					\setlength{\parsep}{0pt}
-					\item \textbf{Jerarquía:} \texttt{KY\_CD}/\texttt{OFNS\_DESC} clasificación del delito y su descricipción; \texttt{PD\_CD}/\texttt{PD\_DESC} igual pero más granular.
-					\item \textbf{Gravedad:} \texttt{LAW\_CAT\_CD} distingue felony, misdemeanor y violation.
+					\item \textbf{Clasificación por gravedad:} \texttt{LAW\_CAT\_CD} distingue felony, misdemeanor y violation.
+					\item \textbf{Clasificación por tipo:} \texttt{KY\_CD}/\texttt{OFNS\_DESC} clasificación del delito y su descricipción; \texttt{PD\_CD}/\texttt{PD\_DESC} igual pero más granular.
 					\item \textbf{Ubicación:} \texttt{BORO\_NM} permite agrupar por ciudad; hay X/Y State Plane, latitud/longitud WGS84 y campos georreferenciados compuestos. \texttt{PREM\_TYP\_DESC} permite saber obtener una descripción del lugar físico del hecho.
 					\item \textbf{Tiempo:} \texttt{CMPLNT\_FR\_DT/TM} indica ocurrencia; \texttt{RPT\_DT}, la fecha de reporte.
 				\end{itemize}
 				\vspace{0.04cm}
 		}}
 		
-		\vspace{0.2cm}
+		\vspace{0.3cm}
 		
 		% ---------- TENDENCIA MENSUAL ----------
 		\noindent
@@ -252,7 +252,7 @@
 		
 	\end{minipage}
 	
-	\vspace{0.1cm}
+	\vspace{0.3cm}
 	
 	% ==========================================
 	% GRÁFICO A ANCHO COMPLETO
@@ -267,6 +267,8 @@
 	\vspace{-0.3cm}
 	\noindent
 	\footnotesize \textit{Nota: Top 10 categorías de entorno físico con mayor volumen de reportes.}
+
+	\newpage
 	\vspace{0.3cm}
 	
 	\noindent
